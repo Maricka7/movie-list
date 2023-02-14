@@ -1,0 +1,105 @@
+[
+	{
+		"name": "Origins",
+		"imdbScore": 7.4,
+		"genre": [
+			"Romance",
+			"Sci-fi",
+			"Drama"
+		],
+		"description": "A molecular biologist and his laboratory partner uncover evidence that may fundamentally change society as we know it.",
+		"trailer": "https://www.youtube.com/embed/Mk4briOLrTQ"
+	},
+	{
+		"name": "A beautiful mind",
+		"imdbScore": 8.2,
+		"genre": [
+			"Romance",
+			"Sci-fi",
+			"Mystery"
+		],
+		"description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+		"trailer": "https://www.youtube.com/embed/9wZM7CQY130"
+	},
+	{
+		"name": "Black Swan",
+		"imdbScore": 8.0,
+		"genre": [
+			"Drama"
+		],
+		"description": "A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's \"Swan Lake\".",
+		"trailer": "https://www.youtube.com/embed/5jaI1XOB-bs"
+	},
+	{
+		"name": "Primal Fear",
+		"imdbScore": 7.7,
+		"genre": [
+			"Crime",
+			"Drama"
+		],
+		"description": "An altar boy is accused of murdering a priest, and the truth is buried several layers deep.",
+		"trailer": "https://www.youtube.com/embed/glWAjoDVH3c"
+	},
+	{
+		"name": "Princess Mononoke",
+		"imdbScore": 8.4,
+		"genre": [
+			"Animate"
+		],
+		"description": "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.",
+		"trailer": "https://www.youtube.com/embed/4OiMOHRDs14"
+	},
+	{
+		"name": "The hidden face",
+		"imdbScore": 7.4,
+		"genre": [
+			"Romance",
+			"Sci-fi",
+			"Drama"
+		],
+		"description": "Shattered by the unexpected news of their irreversible break-up, an aspiring orchestra conductor is puzzled by his girlfriend's mysterious and seemingly inexplicable case of disappearance. But, can he look beyond the facts?",
+		"trailer": "https://www.youtube.com/embed/aXx8TBjFa-w"
+	},
+	{
+		"name": "Parasite",
+		"imdbScore": 8.6,
+		"genre": [
+			"Thiller",
+			"Drama"
+		],
+		"description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+		"trailer": "https://www.youtube.com/embed/5xH0HfJHsaY"
+	},
+	{
+		"name": "The green mile",
+		"imdbScore": 8.6,
+		"genre": [
+			"Comedy",
+			"Drama"
+		],
+		"description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+		"trailer": "https://www.youtube.com/embed/Ki4haFrqSrw"
+	},
+	{
+		"name": "Don’t look up",
+		"imdbScore": 7.3,
+		"genre": [
+			"Comedy",
+			"Sci-fi",
+			"Drama"
+		],
+		"description": "Two low-level astronomers must go on a giant media tour to warn humankind of an approaching comet that will destroy planet Earth.",
+		"trailer": "https://www.youtube.com/embed/RbIxYm3mKzI"
+	},
+	{
+		"name": "The Pianist",
+		"imdbScore": 8.5,
+		"genre": [
+			"Drama",
+			"Music",
+			"Biography"
+		],
+		"description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+		"trailer": "https://www.youtube.com/embed/BFwGqLa_oAo"
+	}
+]

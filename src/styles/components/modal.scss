@@ -1,0 +1,111 @@
+@import '../variables';
+
+#modal-container {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(78, 64, 76, 0.6);
+	z-index: 9999;
+
+
+	&.active {
+		display: flex;
+	}
+}
+
+.modal {
+	position: relative;
+	width: 750px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 40px;
+	background-color: $light-pink;
+	border: 2px solid $darker-pink;
+	border-radius: 15px;
+
+	& > div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: 20px;
+		color: $darker-pink;
+		padding: 0 5px 5px 5px;		
+		border-bottom: 1px solid $darker-pink;
+
+		span {
+			font-weight: bold;
+		}
+
+		&:last-of-type {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			border-bottom: none;
+
+			span {
+				font-weight: normal;
+				text-align: center;
+			}
+		}
+	}
+
+
+	h2 {
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 20px;
+		color: $darker-pink;
+	}
+
+}
+
+#modal__button-x {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	color: $darker-pink;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	.modal {
+		position: fixed;
+		top: 50px;
+		left: 15px;
+		right: 15px;
+		bottom: auto;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.modal {
+		top: 100px;
+		left: 5px;
+		right: 5px;
+
+		& > div {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			padding: 0 5px 10px 5px;		
+			font-size: 16px;
+		}
+	
+	
+		h2 {
+			font-size: 26px;
+			margin-bottom: 10px;
+		}
+	}
+}

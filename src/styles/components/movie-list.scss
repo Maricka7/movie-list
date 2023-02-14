@@ -1,0 +1,83 @@
+@import '../variables';
+
+#movies-list-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.movie-list-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 10px;
+	border: 1px solid $dark-pink;
+	border-radius: 5px;
+
+	&__left {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+
+		& > .play {
+			border: none;
+			padding: none;
+			cursor: pointer;
+
+			&:hover {
+				background: none;
+				color: none;
+			}
+			i {
+				color: $darker-pink;
+				font-size: 22px;
+			}
+		}
+
+
+	}
+
+	&:last-child {
+		margin-bottom: 96px;
+	}
+
+	p {
+		font-size: 20px;
+		color: $darker-pink;
+	}
+
+	button {
+		background-color: transparent;
+		color: $darker-pink;
+		font-size: 18px;
+		padding: 10px;
+		border: 1px solid $darker-pink;
+		border-radius: 5px;
+		transition: 0.3s all ease-in-out;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $darker-pink;
+			color: $light-pink;
+		}
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+	.movie-list-item {
+		padding: 10px 5px;
+	
+		p {
+			font-size: 18px;
+		}
+	
+		button {
+			font-size: 16px;
+			padding: 5px;
+
+		}
+	
+	}
+
+}
